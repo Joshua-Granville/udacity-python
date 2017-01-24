@@ -25,15 +25,12 @@ def draw_art():
     brad.speed(20)
     brad.color("green")
     brad.shape("turtle")
-    draw_circle_of_squares(brad)
 
     #create angie the circle
     angie = turtle.Turtle()
     angie.shape("arrow")
     angie.color("blue")
     angie.speed(30)
-    draw_circles(angie)
-    #angie.circle(100)
 
     #create Josh the triangle
     #josh = turtle.Turtle()
@@ -44,7 +41,9 @@ def draw_art():
     #josh.forward(100)
     #josh.right(135)
     #josh.forward(140)
-
+    
+    draw_circle_of_squares(brad)
+    draw_circles(angie)
 
     window.exitonclick()
   
